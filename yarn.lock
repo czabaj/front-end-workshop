@@ -2537,6 +2537,8 @@ __metadata:
     "@babel/plugin-proposal-optional-chaining": ^7.9.0
     "@babel/preset-env": ^7.9.0
     jest: ^25.2.7
+    lodash: "link:../../js/lodash"
+    reselect: ^4.0.0
   languageName: unknown
   linkType: soft
 
@@ -3764,6 +3766,12 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"lodash@link:../../js/lodash::locator=front-end-workshop%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "lodash@link:../../js/lodash::locator=front-end-workshop%40workspace%3A."
+  languageName: node
+  linkType: soft
+
 "lodash@npm:^4.17.13, lodash@npm:^4.17.15":
   version: 4.17.15
   resolution: "lodash@npm:4.17.15"
@@ -4678,6 +4686,13 @@ fsevents@^2.1.2:
   version: 2.0.0
   resolution: "require-main-filename@npm:2.0.0"
   checksum: 2/8d3633149a7fef67d14613146247137fe1dc4cc969bf2d1adcd40e3c28056de503229f41e78cba5efebad3a223cbfb4215fd220d879148df10c6d9a877099dbd
+  languageName: node
+  linkType: hard
+
+"reselect@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "reselect@npm:4.0.0"
+  checksum: 2/3480930929f673f12962cdde140dce48ea8ba171cd428bb2c7639672e41770bd6b64e935bc0400f47cfa960f617c7ac068c4309527373825d11e27262f08c0a3
   languageName: node
   linkType: hard
 

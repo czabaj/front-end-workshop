@@ -48,6 +48,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [
         "jest",
         "npm:25.2.7"
+      ],
+      [
+        "lodash",
+        "link:../../js/lodash::locator=front-end-workshop%40workspace%3A."
+      ],
+      [
+        "reselect",
+        "npm:4.0.0"
       ]
     ],
     "locationBlacklistData": [
@@ -61,7 +69,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-proposal-nullish-coalescing-operator", "virtual:cdcf6cf1fcefcf3e9297fbc126fabd37ab8ca405aa8966870c60996dc3c2d0e3f8959b7164918f19baf81457c9f6bf2dd2ecfe4a6c62aa72f1285aff5245ad04#npm:7.8.3"],
             ["@babel/plugin-proposal-optional-chaining", "virtual:cdcf6cf1fcefcf3e9297fbc126fabd37ab8ca405aa8966870c60996dc3c2d0e3f8959b7164918f19baf81457c9f6bf2dd2ecfe4a6c62aa72f1285aff5245ad04#npm:7.9.0"],
             ["@babel/preset-env", "virtual:cdcf6cf1fcefcf3e9297fbc126fabd37ab8ca405aa8966870c60996dc3c2d0e3f8959b7164918f19baf81457c9f6bf2dd2ecfe4a6c62aa72f1285aff5245ad04#npm:7.9.0"],
-            ["jest", "npm:25.2.7"]
+            ["jest", "npm:25.2.7"],
+            ["lodash", "link:../../js/lodash::locator=front-end-workshop%40workspace%3A."],
+            ["reselect", "npm:4.0.0"]
           ],
           "linkType": "SOFT",
         }]
@@ -2976,7 +2986,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-proposal-nullish-coalescing-operator", "virtual:cdcf6cf1fcefcf3e9297fbc126fabd37ab8ca405aa8966870c60996dc3c2d0e3f8959b7164918f19baf81457c9f6bf2dd2ecfe4a6c62aa72f1285aff5245ad04#npm:7.8.3"],
             ["@babel/plugin-proposal-optional-chaining", "virtual:cdcf6cf1fcefcf3e9297fbc126fabd37ab8ca405aa8966870c60996dc3c2d0e3f8959b7164918f19baf81457c9f6bf2dd2ecfe4a6c62aa72f1285aff5245ad04#npm:7.9.0"],
             ["@babel/preset-env", "virtual:cdcf6cf1fcefcf3e9297fbc126fabd37ab8ca405aa8966870c60996dc3c2d0e3f8959b7164918f19baf81457c9f6bf2dd2ecfe4a6c62aa72f1285aff5245ad04#npm:7.9.0"],
-            ["jest", "npm:25.2.7"]
+            ["jest", "npm:25.2.7"],
+            ["lodash", "link:../../js/lodash::locator=front-end-workshop%40workspace%3A."],
+            ["reselect", "npm:4.0.0"]
           ],
           "linkType": "SOFT",
         }]
@@ -4298,6 +4310,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["lodash", [
+        ["link:../../js/lodash::locator=front-end-workshop%40workspace%3A.", {
+          "packageLocation": "../../js/lodash/",
+          "packageDependencies": [
+            ["lodash", "link:../../js/lodash::locator=front-end-workshop%40workspace%3A."]
+          ],
+          "linkType": "SOFT",
+          "discardFromLookup": true
+        }],
         ["npm:4.17.15", {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.15-566d9324f7-2.zip/node_modules/lodash/",
           "packageDependencies": [
@@ -5349,6 +5369,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/require-main-filename-npm-2.0.0-03eef65c84-2.zip/node_modules/require-main-filename/",
           "packageDependencies": [
             ["require-main-filename", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["reselect", [
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/reselect-npm-4.0.0-4189778eed-2.zip/node_modules/reselect/",
+          "packageDependencies": [
+            ["reselect", "npm:4.0.0"]
           ],
           "linkType": "HARD",
         }]

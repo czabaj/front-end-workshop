@@ -104,5 +104,7 @@ dist
 .tern-port
 
 # Yarn PnP folders
-/.yarn/build-state.yml
-/.yarn/unplugged/
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
